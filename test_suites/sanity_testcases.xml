@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Swiggy-TestAutomation-SanitySuite" verbose="1" parallel="false">
+
+  <test name="Test Suite 1" preserve-order="true" verbose="2" >
+    <classes>
+           <class name="sanitySuite.TestCase_1_HomePageLoad" />
+           <class name="sanitySuite.TestCase_2_SetDeliveryLocation" />
+           <class name="sanitySuite.TestCase_3_SelectRestaurant"/>
+           <class name="sanitySuite.TestCase_4_CheckOutFlow"/>
+    </classes>
+  </test>
+  
+ <!-- test name="Test Suite 2" preserve-order="true" verbose="2" >
+    <classes>
+           <class name="sanitySuite.TestCase" />
+    </classes>
+  </test-->
+  
+   
+</suite>
